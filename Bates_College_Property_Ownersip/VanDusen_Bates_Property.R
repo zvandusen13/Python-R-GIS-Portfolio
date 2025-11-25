@@ -94,5 +94,5 @@ ggplot(bates_buy) +
   #plots current assessors value to Jan 1 2024
   geom_point(aes(x =  as.Date("2024-01-01"), y = bates_buy$Current_Assesed_Value), color = "black", size = 2) +
   #labels
-  labs(title = "Connecting 30 Pairs of Points", x = "X-axis", y = "Y-axis") 
+  labs(title = "Bates Property Value Change vs. Time", x = "X-axis", y = "Y-axis") 
 

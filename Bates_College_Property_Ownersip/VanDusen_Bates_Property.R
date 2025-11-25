@@ -13,9 +13,8 @@ library(tidyverse)
 # Bates are shaded according to their value
 
 #loads the Bates area shape file
-parcel_shapefile <- st_read("/Users/zachvandusen/Desktop/Bates_Property_Project/Lewiston_batesvicinityselection/LewistonParcelsBates-area.shp")
-#Load .csv file we created. Contains info about current assessed value, address,#sale data, and sale value
-bates_parcels_csv <- read.csv("/Users/zachvandusen/Desktop/Bates_Property_Project/FInal Dataset- Property - Sheet1.csv")
+parcel_shapefile <- st_read("data/LewistonParcelsBates-area.shp")
+bates_parcels_csv <- read_csv("data/FinalDataset.csv") #Load .csv file we created. Contains info about the current assessed value, address,#sale data, and sale value
 
 #initializes new column to 0
 parcel_shapefile$Bates_Value = 0

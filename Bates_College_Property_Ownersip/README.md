@@ -1,0 +1,1 @@
+This investigative mapping project in R used public property records and the shape files of Lewiston, Maine, to visualize the property owned by Bates College and the fluctuation of the assessed property value.

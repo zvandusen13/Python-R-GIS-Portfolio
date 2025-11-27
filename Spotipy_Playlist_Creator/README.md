@@ -2,6 +2,8 @@ This Python project generates custom Spotify playlists based on user-specified c
 
 Watch the demo on YouTube: [https://www.youtube.com/watch?v=Y4sLK3HNj_k](https://www.youtube.com/watch?v=Y4sLK3HNj_k)
 
+![Example Playlist](ExampleImages/ExamplePlaylist.png)
+
 Highlights
 - Creates playlists from liked songs using Spotify API (Spotipy).
 - Filters songs by popularity, artist age, release year, or presence of a specific word in lyrics, then creates new playlist of the desired criteria in your library

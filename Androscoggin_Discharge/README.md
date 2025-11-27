@@ -4,8 +4,8 @@ Overview
 This R script analyzes streamflow data from the USGS National Water Information System for the Androscoggin River in Maine. It visualizes discharge trends, compares recent years to long-term averages, and estimates flood recurrence intervals from 1995 to 2024.
 
 Tools and Data
-Packages used: dataRetrieval, dplyr, tidyr, ggplot2, lubridate
-Data source: USGS NWIS Instantaneous Discharge using USGS dataRetrieval package
+- Packages used: dataRetrieval, dplyr, tidyr, ggplot2, lubridate
+- Data source: USGS NWIS Instantaneous Discharge using USGS dataRetrieval package
 Time range: 1995-01-01 to 2024-03-04
 
 Key Analyses

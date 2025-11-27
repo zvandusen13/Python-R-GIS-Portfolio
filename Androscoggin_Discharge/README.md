@@ -13,16 +13,19 @@ Data Utilized
 - Data source: USGS NWIS Instantaneous Discharge public data using USGS dataRetrieval package
 Time range: 1995-01-01 to 2024-03-04
 
-How it was Made
-- Data Collection: Property ownership and assessment data were manually extracted from the Lewiston Assessor’s database and written in a CSV file
-- Data Cleaning: Missing values were removed for analyses that required purchase prices or dates. Numeric conversion and date formatting were applied.
-- Mapping: Shapefiles of the properties neighboring the Bates campus were acquired from the Lewiston city government. Using the sf package, the properties were color-coded by assessed values using ggplot2
-- Statistical Testing: Wilcoxon tests compared purchase prices to current assessed values to determine significant appreciation or depreciation.
-- Visualization: Property purchasing history, value changes, and spatial distribution were plotted to identify trends and patterns over time.
+How It's Made
+- Data Collection: Streamflow data was retrieved from the USGS National Water Information System using the dataRetrieval R package for the Androscoggin River at Lewiston, Maine.
+- Data Cleaning: Missing values were handled, column names standardized, and date-time data formatted for analysis.
+- Analysis: Long-term and recent flow patterns were summarized, and 25-year average flows were calculated to compare historical trends with 2020–2023 flows.
+- Statistical Modeling: Flood recurrence intervals were estimated using annual maximum flows and a log-linear model to calculate 5-, 25-, 50-, and 100-year flood discharges.
+- Visualization: Time series plots, annual overlays, flow duration curves, and extreme flood event plots were created using ggplot2 to illustrate trends and anomalies.
+
+Tools: R, dataRetrieval, dplyr, tidyr, ggplot2, lubridate.
 
 Usage
 - Install required packages: "dataRetrieval", "dplyr", "ggplot2", "lubridate"
 - Run the script to generate the plots and analysis
 Output
 
-Attached to the folder is a report that displays the plots and an analysis of the significance of the data and the plots. The report contextualizes the property portfolio to the time period of the purchases and theorizes the college's expansion plan for the decades to come.
+Attached to the folder is a report analyzing the results produced in this investigative study. The code and plots produced are walked through. The report concludes there are no more frequent flooding events in the last 3 years than in the previous 26 years.
+

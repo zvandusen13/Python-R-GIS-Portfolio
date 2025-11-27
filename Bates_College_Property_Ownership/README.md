@@ -1,6 +1,6 @@
-Bates College Property Analysis
-
 This R project analyzes Bates College property ownership and value changes using GIS data and property assessment records. It demonstrates data cleaning, visualization, spatial analysis, and statistical testing.
+
+![Example Figure](Figures/PropertyMap.png)
 
 Highlights
 - Maps Bates-owned parcels with color-coded assessed values.

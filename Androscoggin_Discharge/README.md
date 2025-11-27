@@ -2,6 +2,8 @@ Streamflow Analysis – Androscoggin River Flow Station in Lewiston, Maine
 
 This R script analyzes streamflow data from the USGS gauge station in Lewiston, Maine, to assess years to long-term averages and estimates flood recurrence intervals from 1995 to 2024.
 
+![Example Plot](images/InstantFlow.png)
+
 Highlights
 - Summarize 29 years of discharge data
 - Plot long-term and annual flow patterns

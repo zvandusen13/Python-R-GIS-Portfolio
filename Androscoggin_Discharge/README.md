@@ -14,8 +14,8 @@ Data Utilized
 Time range: 1995-01-01 to 2024-03-04
 
 Usage
--Install required packages: "dataRetrieval", "dplyr", "ggplot2", "lubridate"
--Run the script to generate the plots and analysis
+- Install required packages: "dataRetrieval", "dplyr", "ggplot2", "lubridate"
+- Run the script to generate the plots and analysis
 Output
 
 Attached to the folder is a report that displays the plots and an analysis of the significance of the data and the plots. The report contextualizes the property portfolio to the time period of the purchases and theorizes the college's expansion plan for the decades to come.
